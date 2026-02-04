@@ -2,7 +2,7 @@ const tbody = document.getElementById("data-siswa");
 
 // mapping ID kelas → nama kelas (contoh)
 const classMap = {
-  "5fd01639-866b-48d0-b4a8-aefb67791964": "XI-C1"
+  "cda15d2b-9409-4f55-970e-6499592a6336": "XI-C1"
 };
 
 // fungsi bantu: kapitalisasi nama
@@ -42,5 +42,6 @@ fetch("STUDENTS_rows.json")
       </tr>
     `;
   });
+
 
 
